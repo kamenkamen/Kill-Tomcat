@@ -105,19 +105,24 @@ body {
 .drop-element {
     float: left;
     position: absolute;
-    border: solid;
+    /*border: solid;*/
 }
 
 .parachute {
-    width: 60px;
-    height: 60px;
-    background-color: red;
+    background: url(./img/parachute.png);
+    width: 50px;
+    height: 62px;
+    z-index: 1;
+    margin-left: 37px;
+    margin-top: -40px;
+    position: absolute;
 }
 
 .tomcat {
-    width: 60px;
-    height: 60px;
-    background-color: chocolate;
+    background: url(./img/tomcat.png);
+    width: 99px;
+    height: 65px;
+    z-index: 1;
 }
 
 .hide {
